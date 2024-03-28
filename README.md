@@ -113,10 +113,6 @@ If you were not able to find your solution, please ask in the discord or create 
 If you like and enjoy `ai-video-maker`, and would like to donate, you can do that by clicking on the button on the right hand side of the repository. ❤️
 You will have your name (and/or logo) added to this repository as a supporter as a sign of appreciation.
 
-## Contributing 🤝
-
-Pull Requests will not be accepted for the time-being.
-
 ## Star History 🌟
 
 [![Star History Chart](https://api.star-history.com/svg?repos=valiantlynx/ai-video-maker&type=Date)](https://star-history.com/#valiantlynx/ai-video-maker&Date)
