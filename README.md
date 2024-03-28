@@ -1,20 +1,17 @@
-# MoneyPrinter 💸
+# ai-video-maker 💸
 
 Automate the creation of YouTube Shorts locally, simply by providing a video topic to talk about.
-
-> **Important** Please make sure you look through existing/closed issues before opening your own. If it's just a question, please join our [discord](https://dsc.gg/fuji-community) and ask there.
-
-> **🎥** Watch the video on [YouTube](https://youtu.be/mkZsaDA2JnA?si=pNne3MnluRVkWQbE).
+this is a fork of [MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter.git) 
 
 ## Installation 📥
 
-`MoneyPrinter` requires Python 3.11 to run effectively. If you don't have Python installed, you can download it from [here](https://www.python.org/downloads/).
+`ai-video-maker` requires Python 3.11 to run effectively. If you don't have Python installed, you can download it from [here](https://www.python.org/downloads/).
 
-After you finished installing Python, you can install `MoneyPrinter` by following the steps below:
+After you finished installing Python, you can install `ai-video-maker` by following the steps below:
 
 ```bash
-git clone https://github.com/FujiwaraChoki/MoneyPrinter.git
-cd MoneyPrinter
+git clone https://github.com/valiantlynx/ai-video-maker.git
+cd ai-video-maker
 
 # Install requirements
 pip install -r requirements.txt
@@ -42,7 +39,7 @@ If you need help, open [EnvironmentVariables.md](EnvironmentVariables.md) for mo
 1. Enter a topic to talk about
 1. Click on the "Generate" button
 1. Wait for the video to be generated
-1. The video's location is `MoneyPrinter/output.mp4`
+1. The video's location is `ai-video-maker/output.mp4`
 
 ## Music 🎵
 
@@ -58,7 +55,7 @@ Add your fonts to the `fonts/` folder, and load them by specifying the font name
 
 ## Automatic YouTube Uploading 🎥
 
-MoneyPrinter now includes functionality to automatically upload generated videos to YouTube.
+ai-video-maker now includes functionality to automatically upload generated videos to YouTube.
 
 To use this feature, you need to:
 
@@ -111,7 +108,7 @@ If you were not able to find your solution, please ask in the discord or create 
 
 ## Donate 🎁
 
-If you like and enjoy `MoneyPrinter`, and would like to donate, you can do that by clicking on the button on the right hand side of the repository. ❤️
+If you like and enjoy `ai-video-maker`, and would like to donate, you can do that by clicking on the button on the right hand side of the repository. ❤️
 You will have your name (and/or logo) added to this repository as a supporter as a sign of appreciation.
 
 ## Contributing 🤝
@@ -120,7 +117,7 @@ Pull Requests will not be accepted for the time-being.
 
 ## Star History 🌟
 
-[![Star History Chart](https://api.star-history.com/svg?repos=FujiwaraChoki/MoneyPrinter&type=Date)](https://star-history.com/#FujiwaraChoki/MoneyPrinter&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=valiantlynx/ai-video-maker&type=Date)](https://star-history.com/#valiantlynx/ai-video-maker&Date)
 
 ## License 📝
 
