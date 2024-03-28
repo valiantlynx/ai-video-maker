@@ -3,6 +3,8 @@
 Automate the creation of YouTube Shorts locally, simply by providing a video topic to talk about.
 this is a fork of [MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter.git) 
 
+> **Warning** i commited the entire magick binary into the project for convinience(i know its stupid) so the repo has a ton of files
+
 ## Installation 📥
 
 `ai-video-maker` requires Python 3.11 to run effectively. If you don't have Python installed, you can download it from [here](https://www.python.org/downloads/).
