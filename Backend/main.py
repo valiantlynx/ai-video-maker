@@ -256,8 +256,10 @@ def generate():
                 print(colored("[-] Client secrets file missing. YouTube upload will be skipped.", "yellow"))
                 print(colored("[-] Please download the client_secret.json from Google Cloud Platform and store this inside the /Backend directory.", "red"))
 
+            print(colored("[-] Client secrets file found.", "yellow"))
             # Only proceed with YouTube upload if the toggle is True  and client_secret.json exists.
             if not SKIP_YT_UPLOAD:
+                print(colored("[-] no skipping youtube upload.", "yellow"))
                 # Choose the appropriate category ID for your videos
                 video_category_id = "28"  # Science & Technology
                 privacyStatus = "private"  # "public", "private", "unlisted"
@@ -272,6 +274,7 @@ def generate():
 
                 # Upload the video to YouTube
                 try:
+                    print(colored("[-] Starting youtube upload.", "yellow"))
                     # Unpack the video_metadata dictionary into individual arguments
                     video_response = upload_video(
                         video_path=video_metadata['video_path'],
@@ -284,7 +287,9 @@ def generate():
                     print(f"Uploaded video ID: {video_response.get('id')}")
                 except HttpError as e:
                     print(f"An HTTP error {e.resp.status} occurred:\n{e.content}")
-
+                except Exception as e:
+                    print(f"An unexpected error occurred: {e}")
+                    
         video_clip = VideoFileClip(f"../temp/{final_video_path}")
         if use_music:
             # Select a random song
